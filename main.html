@@ -3,19 +3,17 @@
     <head>
         <title>Sign up</title>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="main.js" defer></script>
     </head>
-    <title>
-        Sign up
-    </title>
     <body>
         <h1>
             Choose your gender:
         </h1>
+        <div class="slidecontainer">
+            <label for="myRange" class="slider-label left-label">Male</label>
+            <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+            <label for="myRange" class="slider-label right-label">Female</label>
+        </div>
+        <p id="demo">50</p>
     </body>
-
-    <div class="slidecontainer">
-        <label for="myRange" class="slider-label left-label">Male</label>
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        <label for="myRange" class="slider-label right-label">Female</label>
-    </div>
 </html>
