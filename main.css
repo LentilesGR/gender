@@ -64,3 +64,9 @@ body {
     cursor: pointer;
     border-radius: 50%;
 }
+
+body{
+    background-image: url("giga_28.webp");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
